@@ -2,48 +2,21 @@
   "nodes": {
     "ast_pattern_matching": {
       "inputs": {
-        "ast_pattern_matching-master": "ast_pattern_matching-master",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107266,
-        "narHash": "sha256-qfUfcg8clIrwGMHt4QeVUutbplliAP05LvAbvOHUrrA=",
-        "owner": "nim-nix-pkgs",
-        "repo": "ast_pattern_matching",
-        "rev": "4d01be32cac33108a14ed45c03856f98ab5ea9e1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "ast_pattern_matching",
-        "type": "github"
-      }
-    },
-    "ast_pattern_matching-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "ast_pattern_matching",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "ast_pattern_matching",
           "nixpkgs"
         ],
         "src-ast_pattern_matching-master": "src-ast_pattern_matching-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107266,
-        "narHash": "sha256-qfUfcg8clIrwGMHt4QeVUutbplliAP05LvAbvOHUrrA=",
+        "lastModified": 1648162913,
+        "narHash": "sha256-xg3m9zhww3oisADuixHHtva4VOTLYUZFwYiWRo4QcWQ=",
         "owner": "nim-nix-pkgs",
         "repo": "ast_pattern_matching",
-        "rev": "4d01be32cac33108a14ed45c03856f98ab5ea9e1",
+        "rev": "73b27295c19c73de8ff825422c53e05b9ebbc68b",
         "type": "github"
       },
       "original": {
