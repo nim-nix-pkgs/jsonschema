@@ -11,7 +11,6 @@
   inputs.src-jsonschema-master.ref   = "refs/heads/master";
   inputs.src-jsonschema-master.owner = "PMunch";
   inputs.src-jsonschema-master.repo  = "jsonschema";
-  inputs.src-jsonschema-master.dir   = "";
   inputs.src-jsonschema-master.type  = "github";
   
   inputs."ast_pattern_matching".owner = "nim-nix-pkgs";
