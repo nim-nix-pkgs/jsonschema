@@ -3,20 +3,22 @@
     "ast_pattern_matching": {
       "inputs": {
         "flakeNimbleLib": [
+          "jsonschema-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "jsonschema-master",
           "nixpkgs"
         ],
         "src-ast_pattern_matching-master": "src-ast_pattern_matching-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651917725,
-        "narHash": "sha256-zyVuWvRIeSQKGh0gAvS5grTP7CHBjU9UgiDSU/vNdtQ=",
+        "lastModified": 1650750124,
+        "narHash": "sha256-kVY/iGxN6NnvP1GLptc2z6ursPoZz4vrMVM2RLVsZlE=",
         "owner": "nim-nix-pkgs",
         "repo": "ast_pattern_matching",
-        "rev": "4f1f5641bcad465c037828d220c6fe8be33e3473",
+        "rev": "c6820cb31c6924b53d5952a6f0182bb94b78a31e",
         "type": "github"
       },
       "original": {
@@ -48,6 +50,34 @@
         "type": "github"
       }
     },
+    "jsonschema-master": {
+      "inputs": {
+        "ast_pattern_matching": "ast_pattern_matching",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-jsonschema-master": "src-jsonschema-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556746,
+        "narHash": "sha256-iHefcBhuE0XHATS4rR1ZJRcF9YyoONaOgLQqxwfF/gQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "jsonschema",
+        "rev": "7a98acd32b226acf6d16c67a269851af1127ae01",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "jsonschema",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -61,10 +91,9 @@
     },
     "root": {
       "inputs": {
-        "ast_pattern_matching": "ast_pattern_matching",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-jsonschema-master": "src-jsonschema-master"
+        "jsonschema-master": "jsonschema-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-ast_pattern_matching-master": {
